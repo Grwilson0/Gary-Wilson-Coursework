@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Material Design for Bootstrap fonts and icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <!-- Material Design for Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+  <!--importing css file-->
+  <link rel="stylesheet" href="CSS\style.css">
+  <title>Gary Wilson Website</title>
+</head>
+<body>
+  <div class="col-md-12">
+    <header class="col-md-12">
+      <h1>Gary Wilson</h1>
+      <h3>Projects</h3>
+    </div>
+  </header>
+  <!--Navigation bar code begins-->
+  <nav class="col-md-12">
+    <ul class="nav nav-tabs" style="background-color: #ADA8B6;">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <!--Active page of the site displays highlighted so you know what page you are on-->
+      <li class="nav-item"><a class="nav-link active" href="Gary Wilson Projects.html">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="GaryWilson CV.html">CV</a></li>
+      <li class="nav-item"><a class="nav-link" href="Gary Wilson Hobbies.html">Hobbies</a></li>
+      <li class="nav-item"><a class="nav-link" href="Gary Wilson Contact Me.html">Contact Me</a></li>
+    </ul>
+  </nav>
+  <!-- Navigation bar code ends-->
+  <!-- Main section, info about me-->
+  <main class="col-md-12">
+    <div class="row">
+      <article class="col-md-3">
+        <!-- Sets text to white as I have put a background image behind it that is mostly black-->
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="Assets\Matrix.jpeg" alt="Background image of code on a screen">
+          <!--This background image when shrunk below it's own proportion sizes becomes too small for the text and the text goes outwith the pcture frame, I could not find a way to change the proportion sizes, it does change its size with the fluid command until this point.-->
+          <div class="card-img-overlay" class="img-fluid">
+            <div class="text-center">
+              <h4 class="card-title">Coding</h4>
+            </div>
+            <p class="card-text" class="text-justify">I am undertaking a Javascript module at the moment and will be moving onto Javascript next semester to continue improving my knowledge of the languages. Alongside this as part of a team I am working on a project combining arduino and processing. When complete it will allow you pick from a number of songs and play them through a buzzer along with lighting up some LEDs on a christmas tree. </p>
+          </div>
+          </div>
+      </article>
+      <article class="col-md-3">
+        <div class="card" style="background-color: #EFF8E2;">
+          <div class="card-body">
+            <div class="text-center">
+              <h4>Web Design</h4>
+            </div>
+            <p class="text-justify">The main focus of this module is deveping our HMTL and CSS skills, the main output of this is the webstie you are currently on, i have really enojyed this module as I have not done much web design before. We have also looked at accessibility and how some people are restricted to the use of thewebsites and need additional information provided for them to use the website in a functional manner. </p>
+          </div>
+        </div>
+      </article>
+      <article class="col-md-3">
+        <div class="card" style="background-color: #EFF8E2;">
+          <div class="card-body">
+            <div class="text-center">
+              <h4>Problem Solving and Modelling</h4>
+            </div>
+            <p class="text-justify">AKA, Maths. This has been one of the tougher modules for myself as I have not studied Maths for almost 10 years and hwile some of this information was still in my brain it was harder to pick up again than the other modules. However I have managed an A in out first assessment and am confident I can continue to improve in the future and maintain this level of grade.</p>
+          </div>
+        </div>
+      </article>
+      <!--Sidebar code-->
+      <article class="col-md-3">
+        <div class="card" style="background-color: #EFF8E2;">
+          <div class="card-body">
+            <div class="text-center">
+              <h4>Live Updates</h4>
+            </div>
+            <!--Twitter code starts-->
+            <a class="twitter-timeline" data-width="220" data-height="220" data-theme="dark" href="https://twitter.com/Gary_Wilson89?ref_src=twsrc%5E]=-fw">Tweets by Gary_Wilson89</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!--Twitter code ends-->
+            <!--Linked In code starts, this is copied directly from linked in and sometimes does not load on the page-->
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/gary-wilson-36592994" data-format="inline" data-related="false"></script>
+            <!-- Linked in code ends-->
+            <!--FACEBOOK JAVASCRIPT CODE STARTS, this sometimes does not load also-->
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "http://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=1354122261364916";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            <!--FACEBOOK JAVASCRIPT CODE ENDS-->
+          </div>
+        </div>
+      </article>
+    </main>
+    <!-- Footer Section-->
+    <footer class="col-md-12">
+      <div class="row">
+        <section class="col-md-6">
+          <!--Linked in small follow button, this sometimes doesn't load-->
+          <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+          <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/gary-wilson-36592994" data-format="hover" data-related="false" data-text="Gary Wilson"></script>
+          <!--Facebook small follow button, this sometimes doesn't load-->
+          <div class="fb-follow" data-href="https://www.facebook.com/gary.wilson.3994" data-width="100" data-height="100" data-layout="standard" data-size="small" data-show-faces="true"></div>
+          <!--Twiter small follow button-->
+          <a class="twitter-follow-button" href="https://twitter.com/Gary_Wilson89">Follow @GaryWilson</a>
+          <!--Youtube small follow button, this sometimes doesn't load-->
+          <div class="g-ytsubscribe" data-channel="GaryWilsonVideos" data-layout="default" data-count="default"></div>
+        </section>
+        <section class="col-md-6">
+          <p>
+            Website (c) Gary Wilson & Robert Gordon University - 2017</p>
+          </section>
+        </div>
+      </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- script for Youtube links-->
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+  </body>
+  </html>

@@ -1,0 +1,35 @@
+@import "fonts.css";
+body{
+  background-color: #CECFC7;
+  font-family: 'Quicksand', sans-serif;
+}
+main article img {
+ width: 75%;
+}
+header {
+ background-color: #ADA8B6;
+}
+header h1 {
+ font-weight: 700;
+ font-family: 'Quicksand', sans-serif;
+ margin-bottom: 0;
+ padding-top: 15px;
+}
+header h3 {
+ margin-top: 0;
+ padding-bottom: 20px;
+ font-family: 'Quicksand', sans-serif;
+}
+h4{
+  font-family: 'Quicksand', sans-serif;
+}
+nav {
+ padding: 0px;
+ margin-top: -10px;
+ margin-bottom: 10px;
+}
+footer {
+ margin-top: 15px;
+ padding-top: 10px;
+ background-color: #ADA8B6;
+}
